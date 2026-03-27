@@ -1,8 +1,12 @@
 {
-  "name": "stacks-escrow",
+  "name": "@stacksnpmv/stacks-escrow",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "@stacks/connect": "^7.7.1",
     "@stacks/transactions": "^6.13.0",
@@ -11,5 +15,9 @@
     "react": "^18",
     "react-dom": "^18"
   },
-  "devDependencies": { "@types/node": "^20", "@types/react": "^18", "typescript": "^5" }
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "typescript": "^5"
+  }
 }
